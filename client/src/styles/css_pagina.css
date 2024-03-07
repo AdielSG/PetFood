@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Gowun+Dodum&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Gowun Dodum", sans-serif;
+    background-color: #fff;
+}
+
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0086bbf5;
+    padding: 24px;
+    width: 20%;
+    float: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.logo img{
+    position: absolute;
+}
+
+h3{
+    position: absolute;
+    text-align: left;
+    background-color: #167397;
+    color: White;
+    padding: 10px;
+    width: 74%;
+    left: 0;
+    margin-top: 0;
+    margin-left: 325px;
+}
+
+nav ul{
+    position: fixed;
+    background-color: #1e92c0;
+    width: 20%;
+    height: 100%;
+    top: 5%;
+    left: 0;
+    list-style-type: none;
+    text-align: left;
+}
+
+  nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0px;
+    font-size: 18px;
+  }
+
+nav li:hover{
+    background-color: #00658d;
+    padding: -1;
+    left: auto;
+}
+
+/*p {
+    position: absolute;
+    top: 8%;
+    left: 36%;
+    transform: translate(-30%, -35%);
+    font-size: 36px;
+  }*/
+
+.linea{
+  width: 420px;
+  background: #003449;
+  border-radius: 5px;
+  padding: 1.5px 260px;
+  top: 100%;
+  left: 55%;
+  transform: translate(35%, -30%);
+}
+
+
+.contenedor{
+  position: relative;
+  width: 420px;
+  background:#1e92c000;
+  border-radius: 10px;
+  padding: 60px 260px;
+  align-items: center; /* Para centrar vertical y horizontalm*/
+  top: 50%;
+  left: 42%;
+  transform: translate(-24%, 115%);
+}
+
+  .btns{
+    position: absolute;
+    width: 175px;
+    height: 45px;
+    background: #dbdada;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow:  0 0 10px rgba(14, 12, 12, 0.596);
+    cursor: pointer;
+    font-size: 18px;
+    color: #0283b6;
+  }
+
+  #btn_prod{
+    top: 20px;
+    left: 2%;
+  }
+
+  #btn_ventas{
+    top: 20px;
+    right: 28%;
+    }
+  #btn_usuario{
+    top: 20px;
+    left: 28%;
+    }
+  #btn_stock{
+    top: 20px;
+    right: 2%;
+  }
+
+  .btns i{
+    position: absolute;
+    left: 8px; 
+    top: 8%;
+    font-size: 40px;
+  }
+
+ .imagen{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+ }
+
+ #contenedor-centrado {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh; /* Ajusta la altura según sea necesario */
+}

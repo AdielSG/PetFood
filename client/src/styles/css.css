@@ -1,0 +1,27 @@
+#body-inicia{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: "Gowun Dodum", sans-serif;
+
+/*Mover hacia el centro*/
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(../img/fondo.png) ;
+  background-size: cover;
+}
+
+.button-inicia {
+    background-color: #1e92c0; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 15px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cursor al pasar sobre el botón */
+    border-radius: 15px; /* Bordes redondeados */
+    position: fixed; /* Establece la posición fija para que el botón se mueva con el desplazamiento de la página */
+    bottom: 20px; /* Coloca el botón 20px desde la parte inferior */
+    right: 20px; /* Coloca el botón 20px desde el borde derecho */
+  }

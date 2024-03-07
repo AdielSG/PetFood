@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Gowun+Dodum&display=swap');
+
+#color-p{
+    color: white;
+}
+
+#contenedor-centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura según sea necesario */
+    padding: 50%;
+  }
+
+#body-product{
+    padding: 0;
+    margin: 0;
+    font-family: "Gowun Dodum", sans-serif;
+    background-color: #fff;
+}
+
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0086bbf5;
+    padding: 24px;
+    width: 20%;
+    float: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.logo img{
+    position: absolute;
+}
+
+#h3-barra{
+    position: absolute;
+    text-align: left;
+    background-color: #167397;
+    color: White;
+    padding: 12px;
+    width: 100%;
+    left: 0;
+    margin-top: 0;
+    margin-left: 400px;
+}
+
+nav ul{
+    position: fixed;
+    background-color: #1e92c0;
+    width: 20.6%;
+    height: 100%;
+    top: 5%;
+    left: 0;
+    list-style-type: none;
+    text-align: left;
+}
+
+  nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0px;
+    font-size: 18px;
+  }
+
+nav li:hover{
+    background-color: #00658d;
+    padding: -1;
+    left: auto;
+}
+
+.btn{
+  position: absolute;
+  top: 15%;
+  left: 20%;
+}
+
+#p-prin {
+    position: absolute;
+    top: 8%;
+    left: 26%;
+    transform: translate(-30%, -35%);
+    font-size: 36px;
+  }
+
+  .linea{
+    width: 420px;
+    background: #003449;
+    border-radius: 5px;
+    padding: 1.5px 260px;
+    top: 80%;
+    left: 55%;
+    transform: translate(35%, -30%);
+  }
+  
+  
+  
+  .footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  right: 0;
+  background-color: #167297;
+  color: white;
+  
+  padding: 24px;
+  }
+
+.footer p{
+    font-size: 10px;
+}
